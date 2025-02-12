@@ -18,7 +18,7 @@ import { fetchPlaceholders } from '/scripts/aem.js';
 const placeholders = await fetchPlaceholders('en');
 // retrieve the value for key 'foo'
 // const { foo } = placeholders;
-console.log(placeholders.data);
+console.log(placeholders);
 
 /**
  * Builds hero block and prepends to main in a new section.
