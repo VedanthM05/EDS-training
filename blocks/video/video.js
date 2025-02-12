@@ -6,5 +6,6 @@ function displayVideo(link) {
     videoDiv.innerHTML = '';
     videoDiv.appendChild(iframe);
 }
-const driveLink = 'https://drive.google.com/drive/folders/19Xv6TtAbd8VeOTriseXUIbVG9E9W1q8u/preview';
+const driveLink = 'https://drive.google.com/file/d/1iAmXjtIhlToViffRG1lXzplGt_3erSmp/preview';
 displayVideo(driveLink);
+// https://drive.google.com/file/d/1iAmXjtIhlToViffRG1lXzplGt_3erSmp/view?usp=drive_link
