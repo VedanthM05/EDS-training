@@ -5,6 +5,7 @@ function displayVideo(link) {
     const videoDiv = document.querySelector('.video');
     videoDiv.innerHTML = '';
     videoDiv.appendChild(iframe);
+    
 }
 const driveLink = 'https://drive.google.com/file/d/1iAmXjtIhlToViffRG1lXzplGt_3erSmp/preview';
 displayVideo(driveLink);
